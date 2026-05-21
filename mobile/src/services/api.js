@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use your computer's exact IPv4 address since you are using a physical Android phone
-const API_BASE_URL = 'https://bunyan-marsoos-api.loca.lt/api';
+// Live Vercel Backend - works 24/7 even when laptop is off
+const API_BASE_URL = 'https://backend-flame-nine-61.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
